@@ -1,0 +1,8 @@
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  #team div {
+    max-width: 33.33333%;
+  }
+  #tour .infor-tour div {
+    width: 30.8%;
+  }
+}

@@ -1,0 +1,63 @@
+@media (max-width:  46.1875em) {
+  #header {
+    position: fixed;
+  }
+  #nav {
+    display: block;
+  }
+  #nav div {
+    display: block;
+  }
+
+  /* #header {
+    height: auto;
+  } */
+  #header .search {
+    display: none;
+  }
+  #header .menu {
+    position: absolute;
+    display: block;
+    float: right;
+    color: #fff;
+    line-height: 46px;
+    padding: 0 24px;
+    top: 0;
+    right: 0;
+  }
+  #header .menu:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #team {
+    display: grid;
+  }
+  #tour .infor-tour div {
+    width: auto;
+  }
+  #nav > .display {
+    display: inline-block;
+    /* padding: 2px 0; */
+  }
+  #nav .subnav {
+    position: initial;
+  }
+  
+#nav .subnav div{
+  background-color: #333;
+  padding: 2px 0;
+}
+#nav .subnav a{
+  color: white;
+  padding: 0 41px;
+}
+
+#contact .address div{
+  width: 100%;
+}
+#contact .text-content div{
+  padding: 0 0 !important;
+}
